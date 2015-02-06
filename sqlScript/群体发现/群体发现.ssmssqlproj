@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="群体发现">
+  <Items>
+    <LogicalFolder Name="连接" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.18.183.176:sa">
+          <Created>2012-12-04T18:28:07.3066407+08:00</Created>
+          <Type>SQL</Type>
+          <Server>172.18.183.176</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SinaVerified</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查询</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="222.200.181.241:sa">
+          <Created>2012-12-04T18:32:45.7509766+08:00</Created>
+          <Type>SQL</Type>
+          <Server>222.200.181.241</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SinaVerified</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查询</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查询" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Evaluation用户关系.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Evaluation用户关系.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Evaluation用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Evaluation用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="获得一个用户与其他所有用户之间的相似度.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>获得一个用户与其他所有用户之间的相似度.sql</FullPath>
+        </FileNode>
+        <FileNode Name="查询一个用户用过什么标签.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>查询一个用户用过什么标签.sql</FullPath>
+        </FileNode>
+        <FileNode Name="根据相似度criterion获得用户间的边.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>根据相似度criterion获得用户间的边.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每个用户的类别分布.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每个用户的类别分布.sql</FullPath>
+        </FileNode>
+        <FileNode Name="分类准确率直观认识.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>分类准确率直观认识.sql</FullPath>
+        </FileNode>
+        <FileNode Name="获得两个用户某个层次的相似微博及其时间差.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>获得两个用户某个层次的相似微博及其时间差.sql</FullPath>
+        </FileNode>
+        <FileNode Name="选出目标用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>选出目标用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="检查relations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>检查relations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="检查类别信息.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>检查类别信息.sql</FullPath>
+        </FileNode>
+        <FileNode Name="微博对应类别查询.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>微博对应类别查询.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ou之间的关注关系.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ou之间的关注关系.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ou之间的双向关系.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ou之间的双向关系.sql</FullPath>
+        </FileNode>
+        <FileNode Name="查询词汇网络.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>查询词汇网络.sql</FullPath>
+        </FileNode>
+        <FileNode Name="词汇表里头有多少个用户的单词.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>词汇表里头有多少个用户的单词.sql</FullPath>
+        </FileNode>
+        <FileNode Name="根据用户获得一些微博和他们的词汇.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>根据用户获得一些微博和他们的词汇.sql</FullPath>
+        </FileNode>
+        <FileNode Name="根据followers找出一些有意义的用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>根据followers找出一些有意义的用户.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="杂项" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Microblog Analysis">
+  <Items>
+    <LogicalFolder Name="连接" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.18.183.176:sa">
+          <Created>2011-12-08T14:47:41.7363281+08:00</Created>
+          <Type>SQL</Type>
+          <Server>172.18.183.176</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查询" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Geo Info Tweets.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Geo Info Tweets.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Location.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Location.sql</FullPath>
+        </FileNode>
+        <FileNode Name="个人认证用户的全部原创微博.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>个人认证用户的全部原创微博.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每类用户有多少人.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每类用户有多少人.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每天超过5条微博的用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每天超过5条微博的用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="左外连接示范.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>左外连接示范.sql</FullPath>
+        </FileNode>
+        <FileNode Name="找出想要的信息.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>找出想要的信息.sql</FullPath>
+        </FileNode>
+        <FileNode Name="机构用户带地址的.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>机构用户带地址的.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户的使用手机客户端比率.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户的使用手机客户端比率.sql</FullPath>
+        </FileNode>
+        <FileNode Name="有多少SourceURL导入.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>有多少SourceURL导入.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户的客户端分布.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户的客户端分布.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户的媒体携带率.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户的媒体携带率.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户原创微博的字数统计.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户原创微博的字数统计.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="两类用户用户分组的原创率比较.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>两类用户用户分组的原创率比较.sql</FullPath>
+        </FileNode>
+        <FileNode Name="创建sample_users.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>创建sample_users.sql</FullPath>
+        </FileNode>
+        <FileNode Name="用face区分两类用户的结果.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>用face区分两类用户的结果.sql</FullPath>
+        </FileNode>
+        <FileNode Name="找出一些官方用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>找出一些官方用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UserRelation数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UserRelation数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="User数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>User数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每个用户最早的微博和一个月微博数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每个用户最早的微博和一个月微博数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Status数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Status数.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="杂项" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

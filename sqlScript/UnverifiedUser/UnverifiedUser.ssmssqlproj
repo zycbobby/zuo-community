@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UnverifiedUser">
+  <Items>
+    <LogicalFolder Name="连接" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.18.183.176:sa">
+          <Created>2012-12-25T09:50:44.4829297+08:00</Created>
+          <Type>SQL</Type>
+          <Server>172.18.183.176</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SinaVerified</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查询</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="222.200.181.241:sa">
+          <Created>2012-01-17T09:28:08.4511719+08:00</Created>
+          <Type>SQL</Type>
+          <Server>222.200.181.241</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>wikidb</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查询</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查询" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="分类_usertype.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>分类_usertype.sql</FullPath>
+        </FileNode>
+        <FileNode Name="求用户的粉丝数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>求用户的粉丝数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每天的UV数据量.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每天的UV数据量.sql</FullPath>
+        </FileNode>
+        <FileNode Name="求出度.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>求出度.sql</FullPath>
+        </FileNode>
+        <FileNode Name="某个group for pajek.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>某个group for pajek.sql</FullPath>
+        </FileNode>
+        <FileNode Name="反复（取消）关注同一个人.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>反复（取消）关注同一个人.sql</FullPath>
+        </FileNode>
+        <FileNode Name="关注和取消关注之间相隔的时间.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>关注和取消关注之间相隔的时间.sql</FullPath>
+        </FileNode>
+        <FileNode Name="了解一个人是否经常做一些增添和删除关注的操作.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>了解一个人是否经常做一些增添和删除关注的操作.sql</FullPath>
+        </FileNode>
+        <FileNode Name="某个人的被关注和取消关注的走势.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>某个人的被关注和取消关注的走势.sql</FullPath>
+        </FileNode>
+        <FileNode Name="原来28万网络内关系.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>原来28万网络内关系.sql</FullPath>
+        </FileNode>
+        <FileNode Name="按日期分组查询每天Follow情况（srcUser）.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>按日期分组查询每天Follow情况（srcUser）.sql</FullPath>
+        </FileNode>
+        <FileNode Name="按日期分组查询每天UnFollow情况.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>按日期分组查询每天UnFollow情况.sql</FullPath>
+        </FileNode>
+        <FileNode Name="按日期分组查询每天Follow情况.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>按日期分组查询每天Follow情况.sql</FullPath>
+        </FileNode>
+        <FileNode Name="最多被unfollow的人.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>最多被unfollow的人.sql</FullPath>
+        </FileNode>
+        <FileNode Name="最多被follow的人.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>最多被follow的人.sql</FullPath>
+        </FileNode>
+        <FileNode Name="既有8月份微博又有用户关系的是多少.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>既有8月份微博又有用户关系的是多少.sql</FullPath>
+        </FileNode>
+        <FileNode Name="用户关系错误发现.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>用户关系错误发现.sql</FullPath>
+        </FileNode>
+        <FileNode Name="每个用户的微博数.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.183.176:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.183.176</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>每个用户的微博数.sql</FullPath>
+        </FileNode>
+        <FileNode Name="真正爬到的非认证微博.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>真正爬到的非认证微博.sql</FullPath>
+        </FileNode>
+        <FileNode Name="需要抓8月份微博的用户.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>需要抓8月份微博的用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="查询用户当前的关注人.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>查询用户当前的关注人.sql</FullPath>
+        </FileNode>
+        <FileNode Name="用户关系数据量查询.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>用户关系数据量查询.sql</FullPath>
+        </FileNode>
+        <FileNode Name="一次之后获取需要爬取的用户.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:222.200.181.241:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>222.200.181.241</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>一次之后获取需要爬取的用户.sql</FullPath>
+        </FileNode>
+        <FileNode Name="获取需要爬取用户关系的用户.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>获取需要爬取用户关系的用户.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="杂项" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

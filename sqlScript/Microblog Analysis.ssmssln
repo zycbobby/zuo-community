@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Microblog Analysis", "Microblog Analysis\Microblog Analysis.ssmssqlproj", "{EE4D60BD-48E3-48DC-AA74-2D2660D95BFC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Event Driven", "Event Driven\Event Driven.ssmssqlproj", "{01416CC9-3056-4385-999D-7749140A5C04}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Wiki", "Wiki\Wiki.ssmssqlproj", "{B72736D7-07FD-45C1-9E09-B5244C6C6578}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "News Detecting", "News Detecting\News Detecting.ssmssqlproj", "{6D5068D0-0A30-4E49-A248-021DB66CE81E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "UnverifiedUser", "UnverifiedUser\UnverifiedUser.ssmssqlproj", "{A535A568-A75E-4414-A5C0-0089E6C99E5B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "VerifiedUser", "VerifiedUser\VerifiedUser.ssmssqlproj", "{BD73A9A4-DC9B-42DA-A80A-2F4E9087CACD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SCD", "SCD\SCD.ssmssqlproj", "{CE62022C-581E-44DC-9865-0860E2DD7A5A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "UserTypeClassification", "UserTypeClassification\UserTypeClassification.ssmssqlproj", "{49CFA12A-0594-464D-94DA-DAC6A28E8E57}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "群体发现", "群体发现\群体发现.ssmssqlproj", "{D319C00D-6389-42D6-9739-6EBC4681D263}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "词汇网络", "词汇网络\词汇网络.ssmssqlproj", "{36B6BA7D-2DD9-4FD4-9BFC-571852B2518E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "统计", "统计\统计.ssmssqlproj", "{4BC1B0E0-1EC1-4E38-8FFB-09220BF32E11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		默认值|Default = 默认值|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE4D60BD-48E3-48DC-AA74-2D2660D95BFC}.默认值|Default.ActiveCfg = 默认值
+		{01416CC9-3056-4385-999D-7749140A5C04}.默认值|Default.ActiveCfg = 默认值
+		{B72736D7-07FD-45C1-9E09-B5244C6C6578}.默认值|Default.ActiveCfg = 默认值
+		{6D5068D0-0A30-4E49-A248-021DB66CE81E}.默认值|Default.ActiveCfg = 默认值
+		{A535A568-A75E-4414-A5C0-0089E6C99E5B}.默认值|Default.ActiveCfg = 默认值
+		{BD73A9A4-DC9B-42DA-A80A-2F4E9087CACD}.默认值|Default.ActiveCfg = 默认值
+		{CE62022C-581E-44DC-9865-0860E2DD7A5A}.默认值|Default.ActiveCfg = 默认值
+		{49CFA12A-0594-464D-94DA-DAC6A28E8E57}.默认值|Default.ActiveCfg = 默认值
+		{D319C00D-6389-42D6-9739-6EBC4681D263}.默认值|Default.ActiveCfg = 默认值
+		{36B6BA7D-2DD9-4FD4-9BFC-571852B2518E}.默认值|Default.ActiveCfg = 默认值
+		{4BC1B0E0-1EC1-4E38-8FFB-09220BF32E11}.默认值|Default.ActiveCfg = 默认值
+		{00000000-0000-0000-0000-000000000000}.默认值|Default.ActiveCfg = 默认值
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
